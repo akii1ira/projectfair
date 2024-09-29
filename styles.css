@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Arimo:ital,wght@0,400..700;1,400..700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.container{
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+}
+.img{
+    background-image: url(https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg?auto=compress&cs=tinysrgb&w=1200);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display:flex;
+    width: 100%;
+    position: relative;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    /* background-color: #000000ad; */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.17);
+}
+nav .cn {
+    height: 30px;
+    border-bottom: 3px solid white;
+    font-size: 16px;
+    position: absolute;
+    right: 140px;
+    top: 30px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.menu{
+    position: absolute;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+}
+header{
+    height: 800px;
+    position: relative;
+    /* background-color:#16181b; */
+   
+}
+header h1{
+    font-family: "Archivo", sans-serif;
+    /* margin-top: 200px; */
+    text-align: center;
+    color: #95342b;
+    font-size: 150px;
+    font-weight: 900;
+    padding-top: 200px;
+}
+header h3{
+    font-family: "Quicksand", sans-serif;
+    color: rgba(255, 255, 255, 0.675);
+    font-weight: 400;
+    position: absolute;
+    top: 180px;
+    left: 390px;
+
+}
+.white{
+    -webkit-text-stroke: 3px  rgba(192, 192, 192, 0.77);
+    color: transparent;
+    position: absolute;
+    top: 90px;
+    right: 360px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.form{
+    background-color: #cb3325;
+    /* width: 100%; */
+    display: flex;
+    padding-bottom: 100px;
+   
+}
+.box{
+    width: 50%;
+    width: 540px;
+    height: 600px;
+    background-color:  #bc2d20;
+    margin-top: 100px;
+    margin-left:200px ;
+    border-radius: 3px;
+    box-shadow: 0 5px 40px rgba(255, 255, 255, 0.183);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-top: 50px;
+}
+input{
+    border: none;
+    background-color:  #bc2d20;
+    width: 80% ;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    border-bottom:  3px solid rgba(255, 255, 255, 0.681);
+}
+textarea{
+    background-color: #bc2d20;
+    border: none;
+    width: 80%;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.774);
+
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.792);
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.text{
+    width: 370px;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand", sans-serif;
+}
+.text h1{
+    font-size: 70px;
+   
+}
+.text p{
+    font-size: 30px;
+}
+.but{
+        border: none;
+        background-color:  #bc2d20;
+        font-size: 20px;
+        width: 50px ;
+        margin-left: 400px;
+        color: white;
+        padding-bottom: 10px;
+        margin-bottom: 80px;
+        font-family: "Archivo", sans-serif;
+       
+}
+.wall{
+    height: 400px;
+    /* background-color: #95342b; */
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgb(23, 23, 23);
+    opacity: 0.5;
+    color: white;
+}
+.wall h1,.planets h1,footer h1{
+    font-size: 80px;
+    padding-top: 80px;
+    padding-left: 50px;
+   
+}
+.wall p,.planets p{
+    font-size: 24px;
+    width: 60%;
+    padding-top: 20px;
+    padding-left: 50px;
+    opacity: 1;
+}
+.planets{
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://i.pinimg.com/474x/5b/85/6b/5b856b64df3358c91cd00464d9b8fc8e.jpg);
+    color: white;
+    font-family: "Outfit", sans-serif;
+    position: relative;
+    opacity: 0.6;
+}
+.item p{
+    opacity: 6;
+    width: 90%;
+}
+.planets img{
+    box-shadow: 20px 20px 230px 100px rgb(0, 0, 0);
+    opacity: 0.8;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    transition: 1.2s;
+}
+.planets img:hover{
+    box-shadow: 10px 10px 230px 100px rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+.item{
+    padding-top: 200px;
+    display: flex;
+    gap: 5rem;
+}
+.item1 h1{
+    color:#f1bf19 ;
+}
+.item2 h1{
+    color:#ae1f12 ;
+}
+.item3 h1{
+    color:#1f441f ;
+}
+.item4 h1{
+    color:#eb5f28 ;
+}
+.item5 h1{
+    color:#a74623 ;
+}
+.item6 h1{
+    color:#9c612d ;
+}
+.item7 h1{
+    color:#61a5c2 ;
+}
+.item8 h1{
+    color:rgb(26, 86, 147) ;
+}
+
+.item2,.item4,.item6,.item8{
+    flex-direction: row-reverse;
+}
+
+footer{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    position: relative;
+    bottom: 80px;
+    background-image: url(https://i.pinimg.com/originals/65/ff/25/65ff25ffbe3786b2de094f7051bbd873.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}   
+footer h1{ 
+    font-size: 70px;
+    padding-top: 20px;
+    padding-left: 200px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+    color: rgba(93, 0, 0, 0.895);
+    font-family: "Archivo", sans-serif;
+    z-index: 2;
+}
+.wh{
+    z-index: -1;
+    -webkit-text-stroke: 3px  rgba(255, 255, 255, 0.851);
+    color: transparent;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+button{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 9px;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color:#95342b ;
+    color: white;
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 40px;
+    border: none;
+    right: 40px;
+   bottom: 20px;
+   position: fixed;
+   z-index: 2;
+}
+.boox{
+    padding-right: 5px;
+}
+.big{
+    display: flex;
+     margin: 170px;
+    flex-direction: column;
+   
+}
+.boox{
+    margin-left:130px;
+    font-family: "Archivo", sans-serif;
+    width: 340px;
+    height: 100px;
+    font-size: 90px;
+    font-weight: 200;
+    color: white;
+    position: relative;
+    transition: 0.5s;
+}
+.big2 img{
+    position: absolute;
+    right: 200px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    top: 200px;
+}
+.boox span{
+    font-size: 20px;
+    font-weight: 800;
+    position: absolute;
+    left: -30px;
+    top: 20px;
+    opacity: 1;
+    
+    transition: 0.5s;
+}
+.boox:hover span{
+    padding-left: 20px;
+    opacity: 0;
+}
+.boox:hover{
+    padding-left: 20px;
+}
+.fat{
+    font-family: "Archivo", sans-serif;
+    position: relative;
+    padding-top: 240px;
+    padding-left: 350px;
+    color: rgba(255, 255, 255, 0.741);
+    font-size: 20px;
+    width: 100%;
+    height: 700px;
+}
+.fat h2{
+    top: 200px;
+    left: 290px;
+   position: absolute;
+    width: 50%;
+}
+.fat h1{
+    font-size: 50px;
+    width: 50%;
+}
+.fat img{
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.me{
+    height: auto;
+    color: rgba(255, 255, 255, 0.688);
+    font-family: "Archivo", sans-serif;
+    margin-bottom: 900px;
+    
+}
+.me h1{
+    padding-top: 300px;
+    width: 90%;
+    padding-left: 290px;
+    font-size: 24px;
+    font-weight: 100;
+}
+.me img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 1400px;
+    left: 200px;
+    border-radius: 50%;
+}
+.me ul{
+    position: absolute;
+    top: 1600px;
+    right: 240px;
+    list-style: none;
+    font-size: 20px;
+    
+}
+li{
+    margin-top: 20px;
+}
+li span{
+    font-size: 40px;
+    color: white;
+}
+.li{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.725);
+    font-size: 18px;
+    padding-top: 100px;
+    font-family: "Archivo", sans-serif;
+    padding-bottom: 20px;
+}
+.pro{
+    margin-top: 200px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+.pro a{
+    display: flex;
+    flex-direction: row;
+    color:  #ca4e00d9;
+
+}
+.bigpro{
+    padding-left: 200px;
+    position: relative;
+    padding-bottom: 100px;
+}
+a img{
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+a img:hover{
+    transform: scale(1.03);
+}
+
+.ic1{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+}
+.ic2{
+    position: absolute;
+    top: 680px;
+    left: 10px;
+    width: 300px;
+    height: 300px;
+}
+.ic3{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+}
+.pro h1{
+    margin: 30px;
+    font-size: 50px;
+}
+.pro2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 100px;
+    position: relative;
+}
+.pro2 h1{
+    position: absolute;
+    left: 230px;
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 50px; 
+        padding-top: 100px;
+    }
+    header h3 {
+        left: 40px;
+        font-size: 20px; 
+        top: 80px;
+    }
+    .white{
+        top: 30px;
+        left: 120px;
+    }
+    .box {
+        width: 90%; 
+        margin: 0 auto;
+    }
+    nav .cn {
+        right: 100px; 
+    }
+    .planets img{
+        box-shadow: 20px 20px 30px 30px rgb(0, 0, 0); 
+        width: 200px;
+        height: 200px;
+    }
+    .planets img:hover{
+        box-shadow: 10px 10px 230px 100px rgb(0, 0, 0);
+        transform: scale(1.01);
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+    } 
+    .item2,.item4,.item6,.item8{
+        flex-direction: column;
+    }
+    .wall h1,.planets h1,footer h1{
+        font-size: 30px;
+        padding-top: 50px;
+        padding-left: 50px;
+       
+    }
+    .wall p,.planets p{
+        font-size: 20px;
+        width: 90%;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    footer{
+        margin-top: 100px;
+        height: 200px;
+        width: 100%;
+        bottom: 30px;
+    }   
+    footer h1{ 
+        font-size: 20px;
+    }
+
+    .form{
+        flex-direction: column-reverse;
+    }
+   
+    .box{
+        width: 50%;
+        width: 340px;
+        height: 500px;
+        margin-top: 50px;
+        margin-left:50px ;
+        gap: 3rem;
+    }
+    
+    .text{
+        width: 80%;
+        margin-top:50px;
+        margin-left: 50px;
+        color: rgb(255, 255, 255);
+        font-family: "Quicksand", sans-serif;
+    }
+    .text h1{
+        font-size: 40px;
+       
+    }
+    .text p{
+        font-size: 20px;
+    }
+    .but{
+            font-size: 15px;
+            margin-left: 240px;
+    }
+
+
+    .big{
+         margin: 50px;
+        flex-direction: column;
+    }
+    .boox{
+        margin-left:30px;
+        width: 140px;
+        height: 100px;
+        font-size: 30px;
+    }
+    .big2 img{
+        right: 50px;
+        width: 100px;
+        height: 100px;
+        top: 200px;
+    }
+    .boox span{
+        font-size: 15px;
+        left: -30px;
+        top: 2px;
+    }
+    .fat{
+        padding-left: 150px;
+        width: 100%;
+    }
+    .fat h2{
+        top: 200px;
+        left: 120px;
+    }    
+    .fat h1{
+        width: 100%;
+        font-size: 46px;
+    }
+    .me h1{
+        padding-top: 300px;
+        width: 100%;
+        padding-left: 50px;
+        font-size: 24px;
+        font-weight: 100;
+    }
+    .me img{
+        width: 300px;
+        height: 300px;
+        left: 50px;
+    }
+    .me ul{
+        top: 1500px;
+        right: 60px;
+        list-style: none;
+        font-size: 20px;
+        
+    }
+    .ic1{
+        top: 250px;
+        left: 50px;
+        width: 100px;
+        height: 100px;
+    }
+    .ic2{
+        top: 1000px;
+        left: 500px;
+        width: 100px;
+        height: 100px;
+    }
+    .ic3{
+      
+        left: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .pro a{
+        flex-direction: column-reverse;
+    }
+    .pro2 h1{
+        width: 100%;
+        margin-top: 0; 
+        flex-direction: row-reverse;
+    }
+}

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    margin: 0;
+    font-family: "Encode Sans", sans-serif;
+    font-weight: 300px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+.container {
+    margin:0;
+    width: 100%;
+}
+
+.head{
+    width: 100%;
+
+}
+.one{
+    display: flex;
+}
+header img{
+    width: 150px;
+    height: 100px;
+    margin-left: 70px;
+    
+}
+a,li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+header p,h4{
+    color: white;
+    margin-top: 37px;
+    font-size: 25px;
+    padding-left: 8px;
+    font-family: "Encode Sans", sans-serif;
+    font-weight: 100px;
+}
+.submit{
+    font-size: 25px;
+    width: 220px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.sign{
+    font-size: 25px;
+    width: 150px;
+    height:50px ;
+    background-color: #4361ee;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none ;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    transition: 0.6s;
+}
+.sign:hover{
+    color: black;
+    background-color: white;
+}
+.head{
+    height: 350px;
+    background-color: #dfdaf5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-right: 40px;
+   
+}
+.head h1{
+    font-size: 60px;
+    font-family: "Encode Sans", sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.806);
+}
+.head input{
+    width: 550px;
+    height: 60px;
+    border: 1px solid black;
+    margin-top:20px ;
+    padding-left: 20px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.white{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+
+}
+.box{
+    display: flex;
+    width: 70%;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+    padding: 0;
+    gap: 10px;
+}
+.box img{
+    width: 100px;
+    height: 130px;
+}
+.ii{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.ii button{
+    width: 130px;
+    font-size: 17px;
+    border: none;
+    color: #468fea;
+    background-color: #ffffff;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    color: white;
+    display: flex;
+    gap: 8em;
+    font-family: "Encode Sans", sans-serif;
+    font-size: 19px;
+    padding-left: 40px;
+    padding-top: 50px;
+    position: relative;
+
+}
+.t{
+    margin-top: 30px;
+}
+.l{
+    margin-top: 150px;
+    font-size: 15px;
+
+}
+h3{
+    color: rgba(17, 16, 16, 0.731);
+}
+footer h3{
+    margin-bottom:20px;
+    color: white;
+}
+footer button{
+   color: #ffffff;
+    width:100px;
+    height: 40px;
+    background-color: #4361ee;
+    position: fixed;
+    right: 50px;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    position: fixed;
+}
