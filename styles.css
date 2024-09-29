@@ -590,39 +590,47 @@ a img:hover{
         top: 2px;
     }
     .fat{
-        padding-left: 150px;
+        padding-left: 50px;
         width: 100%;
     }
     .fat h2{
         top: 200px;
-        left: 120px;
+        left: 20px;
     }    
     .fat h1{
         width: 100%;
-        font-size: 46px;
+        font-size: 26px;
+    }
+    .fat img{
+        width: 200px;
+        height: 200px;
+        right: 30px;
     }
     .me h1{
         padding-top: 300px;
         width: 100%;
-        padding-left: 50px;
-        font-size: 24px;
+        padding-left: 20px;
+        font-size: 20px;
         font-weight: 100;
     }
     .me img{
-        width: 300px;
-        height: 300px;
-        left: 50px;
+        width: 150px;
+        height: 150px;
+        left: 10px;
     }
     .me ul{
-        top: 1500px;
-        right: 60px;
+        top: 1420px;
+        right: 10px;
         list-style: none;
-        font-size: 20px;
-        
+        font-size: 15px;
+
+    }
+    .me span{
+        font-size: 24px;
     }
     .ic1{
         top: 250px;
-        left: 50px;
+        left: 10px;
         width: 100px;
         height: 100px;
     }
@@ -641,9 +649,20 @@ a img:hover{
     .pro a{
         flex-direction: column-reverse;
     }
-    .pro2 h1{
-        width: 100%;
+    .pro img{
+        width: 100px;
+        width: 200px;
+        height: 100px;
+
+    }
+    .pro h1{
+
         margin-top: 0; 
+        font-size: 20px;
         flex-direction: row-reverse;
+    }
+    .pro{
+        margin-top: 50px;
+        width: 100px;
     }
 }
