@@ -18,6 +18,7 @@ body{
     position: relative;
 }
 .container{
+
     height: auto;
     background-color: black;
     overflow: hidden;
@@ -68,13 +69,13 @@ header{
    
 }
 header h1{
-    font-family: "Archivo", sans-serif;
     /* margin-top: 200px; */
     text-align: center;
     color: #95342b;
     font-size: 150px;
     font-weight: 900;
     padding-top: 200px;
+    font-family: "Archivo", sans-serif;
 }
 header h3{
     font-family: "Quicksand", sans-serif;
@@ -249,6 +250,7 @@ textarea{
 }
 
 footer{
+    margin-top: 200px;
     height: 400px;
     width: 100%;
     position: absolute;
@@ -415,31 +417,7 @@ li span{
     font-family: "Archivo", sans-serif;
     padding-bottom: 20px;
 }
-.pro{
-    margin-top: 200px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-}
-.pro a{
-    display: flex;
-    flex-direction: row;
-    color:  #ca4e00d9;
 
-}
-.bigpro{
-    padding-left: 200px;
-    position: relative;
-    padding-bottom: 100px;
-}
-a img{
-    width: 550px;
-    height: 300px;
-    object-fit: cover;
-    transition: 0.5s;
-}
-a img:hover{
-    transform: scale(1.03);
-}
 
 .ic1{
     position: absolute;
@@ -476,6 +454,31 @@ a img:hover{
     position: absolute;
     left: 230px;
 }
+.pro{
+    margin-top: 200px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+.pro a{
+    display: flex;
+    flex-direction: row;
+    color:  #ca4e00d9;
+
+}
+.bigpro{
+    margin-left: 200px;
+    position: relative;
+    margin-bottom: 100px;
+}
+a img{
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+a img:hover{
+    transform: scale(1.03);
+}
 @media (max-width: 768px) {
     header h1 {
         font-size: 50px; 
@@ -488,7 +491,7 @@ a img:hover{
     }
     .white{
         top: 30px;
-        left: 120px;
+        left: 100px;
     }
     .box {
         width: 90%; 
@@ -541,33 +544,45 @@ a img:hover{
    
     .box{
         width: 50%;
+        width: 300px;
+        height: 500px;
+        background-color:  #bc2d20;
+        margin-top: 50px;
+        margin-left:10px ;
+        border-radius: 3px;
+        box-shadow: 0 5px 40px rgba(255, 255, 255, 0.183);
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        padding-top: 50px;
+    }
+    /* .box{
+        width: 50%;
         width: 340px;
         height: 500px;
         margin-top: 50px;
         margin-left:50px ;
         gap: 3rem;
-    }
+    } */
     
     .text{
         width: 80%;
-        margin-top:50px;
+        margin-top:30px;
         margin-left: 50px;
         color: rgb(255, 255, 255);
         font-family: "Quicksand", sans-serif;
     }
     .text h1{
-        font-size: 40px;
+        font-size: 30px;
        
     }
     .text p{
-        font-size: 20px;
+        font-size: 15px;
     }
     .but{
             font-size: 15px;
             margin-left: 240px;
     }
-
-
     .big{
          margin: 50px;
         flex-direction: column;
@@ -579,10 +594,10 @@ a img:hover{
         font-size: 30px;
     }
     .big2 img{
-        right: 50px;
+        right: 20px;
         width: 100px;
         height: 100px;
-        top: 200px;
+        top: 700px;
     }
     .boox span{
         font-size: 15px;
@@ -599,7 +614,7 @@ a img:hover{
     }    
     .fat h1{
         width: 100%;
-        font-size: 26px;
+        font-size: 24px;
     }
     .fat img{
         width: 200px;
@@ -620,15 +635,15 @@ a img:hover{
     }
     .me ul{
         top: 1420px;
-        right: 10px;
+        right: 5px;
         list-style: none;
-        font-size: 15px;
+        font-size: 12px;
 
     }
     .me span{
-        font-size: 24px;
+        font-size: 20px;
     }
-    .ic1{
+    /* .ic1{
         top: 250px;
         left: 10px;
         width: 100px;
@@ -645,8 +660,74 @@ a img:hover{
         left: 10px;
         width: 100px;
         height: 100px;
+    } */
+    .pro img{
+        width: 200px;
+        height: 100px;
     }
     .pro a{
+        flex-direction: column-reverse;
+    }
+    .pro2 a{
+        flex-direction: column;
+    }
+    .pro2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+        position: relative;
+    }
+    .bigpro{
+        margin-left: 10px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .pro h1{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .pro2{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 5px;
+        position: relative;
+    }
+    .pro2 h1{
+        position: absolute;
+        top: 0;
+        left: 30px;
+        width: 100%;
+    }
+    .bigpro{
+        margin-top: 10px;
+    }
+    .pro{
+        margin-top: 50px;
+    }
+    .ic1{
+        position: absolute;
+        top: 200px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .ic2{
+        position: absolute;
+        top: 380px;
+        right:1px ;
+        width: 50px;
+        height: 50px;
+    }
+    .ic3{
+        position: absolute;
+        top: 710px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    /* .pro a{
         flex-direction: column-reverse;
     }
     .pro img{
@@ -664,5 +745,5 @@ a img:hover{
     .pro{
         margin-top: 50px;
         width: 100px;
-    }
+    } */
 }
